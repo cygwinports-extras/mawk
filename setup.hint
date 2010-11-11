@@ -1,0 +1,6 @@
+category: Interpreters
+requires:
+sdesc: "AWK interpreter"
+ldesc: "mawk is an interpreter for the AWK Programming Language.  The 
+AWK language is useful for manipulation of data files, text retrieval 
+and procssing, and for prototyping and experimenting with algorithms."
