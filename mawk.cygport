@@ -1,5 +1,5 @@
 NAME="mawk"
-VERSION=1.3.4-20121129
+VERSION=1.3.4-20121209
 RELEASE=1
 CATEGORY="Interpreters"
 SUMMARY="AWK interpreter"
@@ -8,11 +8,7 @@ AWK language is useful for manipulation of data files, text retrieval and
 procssing, and for prototyping and experimenting with algorithms."
 HOMEPAGE="http://invisible-island.net/mawk/"
 SRC_URI="ftp://invisible-island.net/mawk/${NAME}-${VERSION}.tgz"
-
-PATCH_URI="
-	20100625-cygwin17.patch
-	20100625-vpath.patch
-"
+PATCH_URI="20100625-vpath.patch"
 
 src_compile() {
 	cd ${B}
